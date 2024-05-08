@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel Schmer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row betwen-xs">
+                <div class="col-xs-12 col-sm-6">
+                    <nav class="menu"> 
+                            <div class="logo">
+                                <a href="#"><img src="logito.jpeg" alt="logotipo"></a>
+                                <a href="#" class="btn-menu" id="btn-menu"><i class="icono fas fa-bars"></i></a>
+                            </div>
+                            
+                            <div class="enlaces" id="enlaces">
+                                <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i>Inicio</a>
+                                <a href="index.html"><i class="fas fa-shopping-bag" aria-hidden="true"></i>Productos</a>
+                                <a href="index.html"><i class="fas fa-briefcase" aria-hidden="true"></i>Servicio</a>
+                                <a href="index.html"><i class="fas fa-phone" aria-hidden="true"></i>Redes</a>
+                                <a href="#contacto"><i class="fas fa-envelope"></i>Contacto</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contacta con nosotros</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                    <textarea name="message" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="row">
+                <div class="col-xs-12">
+                    <nav class="menu">
+                        <div class="enlaces" id="enlaces">
+                            <a href="#Inicio"><i class="fas fa-home" aria-hidden="true"></i>Inicio</a>
+                            <a href="#productos"><i class="fas fa-shopping-bag" aria-hidden="true"></i>Productos</a>
+                            <a href="#servicios"><i class="fas fa-briefcase" aria-hidden="true"></i>Servicios</a>
+                            <a href="#redes"><i class="fas fa-phone phone-icon" aria-hidden="true"></i>Redes</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js"></script>
+    <script src="menu.js"></script>
+    </body>
+ </html>

@@ -1,0 +1,91 @@
+/* Estilos para el encabezado */
+#header {
+    background: #0a0908;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo img {
+    height: 40px;
+}
+
+.menu .enlaces a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu .enlaces a:hover {
+    color: #ccc;
+}
+
+/* Estilos para el pie de página */
+#footer {
+    background: #0a0908;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer .menu {
+    justify-content: center;
+}
+
+#footer .menu .enlaces {
+    margin-left: 0;
+}
+
+#footer .menu .enlaces a {
+    margin: 0 10px;
+}
+
+#footer .menu .enlaces a:hover {
+    color: #ccc;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Media query para dispositivos de pantalla pequeña */
+@media screen and (max-width: 767px) {
+    .contact {
+        padding: 20px;
+    }
+}
