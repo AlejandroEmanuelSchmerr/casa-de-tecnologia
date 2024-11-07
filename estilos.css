@@ -243,6 +243,7 @@ main {
     justify-content: center;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .redes-sociales li {
