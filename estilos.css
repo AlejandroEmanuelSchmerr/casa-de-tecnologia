@@ -34,7 +34,9 @@ article {
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+h2 {
+    text-algin: center;
+}
 aside {
     flex: 0 0 250px;
     background-color: #ecf0f1;
