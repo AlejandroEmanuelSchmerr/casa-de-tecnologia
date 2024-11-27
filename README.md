@@ -24,7 +24,7 @@
   - Repite el menú principal para facilitar la navegación.
 
 - **Responsive Design**:
-  - Implementado con **CSS Grid** y **Flexbox** para adaptarse a diferentes dispositivos.
+  - Implementado  para adaptarse a diferentes dispositivos.
 
 ## Ver el proyecto
 
@@ -35,7 +35,7 @@ Puedes explorar el sitio web directamente desde este enlace sin necesidad de ins
 
 - **HTML5**
 - **CSS3**
-  - Grid y Flexbox para diseño responsivo.
+  - Diseño responsivo.
 - **JavaScript (JS)**
 
 ## Estado del proyecto
@@ -51,6 +51,4 @@ Este proyecto fue creado por **Emanuel Schmer**.
 
 Gracias por visitar y explorar nuestra página. ¡Tu interés es muy valioso para nosotros!
 
-## Contribuciones
 
-No se aceptan contribuciones en este momento, ya que el proyecto está en desarrollo personal.
